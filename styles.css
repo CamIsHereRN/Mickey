@@ -1,0 +1,22 @@
+body {
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 1px darkgrey;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+h2 {
+    background-color: black;
+    color: cornsilk;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    
+}
