@@ -5,6 +5,13 @@ body {
     background-image: url(images/tears-white-small.png);
 }
 
+.site {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    border: solid black 1px;
+}
+
 h1 {
     text-align: center;
     text-shadow: 2px 1px darkgrey;
@@ -15,6 +22,28 @@ h1 {
 h2 {
     background-color: black;
     color: cornsilk;
+}
+
+aside {
+    float: left;
+    width: 25%;
+}
+
+main {
+    float: left;
+    width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    main {
+        float:none;
+        width: 100%;
+    }
 }
 
 a:link, a:visited {
@@ -54,5 +83,4 @@ a:hover {
 footer {
     text-align: center;
     font-style: italic;
-    
 }
